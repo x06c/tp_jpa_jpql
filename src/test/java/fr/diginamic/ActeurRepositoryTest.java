@@ -42,7 +42,8 @@ public class ActeurRepositoryTest {
 	}
 	
 	/**
-	 * Extraire la liste des acteurs nés en 1985
+	 * Extraire la liste des acteurs dont l'année de naissance est 1985.
+	 * Astuce: fonction year(...)
 	 */
 	@Test
 	public void testExtraireActeursParAnneeNaissance() {
@@ -67,7 +68,7 @@ public class ActeurRepositoryTest {
 	}
 	
 	/**
-	 * Extraire la liste de tous les acteurs ayant joué dans un film paru en 2015
+	 * Extraire la liste de tous les acteurs ayant joué dans un film paru en 2015.
 	 */
 	@Test
 	public void testExtraireActeursParFilmParuAnnee() {
@@ -77,7 +78,8 @@ public class ActeurRepositoryTest {
 	}
 	
 	/**
-	 * Extraire la liste de tous les acteurs français
+	 * Extraire la liste de tous les acteurs ayant joué dans un film français
+	 * Astuce: mot clé distinct
 	 */
 	@Test
 	public void testExtraireActeursParPays() {
@@ -87,7 +89,8 @@ public class ActeurRepositoryTest {
 	}
 	
 	/**
-	 * Extraire la liste de tous les acteurs français ayant joué dans un film paru en 2017
+	 * Extraire la liste de tous les acteurs ayant joué dans un film français paru en 2017
+	 * Astuce: mot clé distinct
 	 */
 	@Test
 	public void testExtraireActeursParListePaysEtAnnee() {
@@ -99,6 +102,7 @@ public class ActeurRepositoryTest {
 	/**
 	 * Extraire la liste de tous les acteurs ayant joué dans un film réalisé par Ridley Scott 
 	 * entre les années 2010 et 2020
+	 * Astuce: mot clé distinct
 	 */
 	@Test
 	public void testExtraireParRealisateurEntreAnnee() {
